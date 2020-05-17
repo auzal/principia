@@ -1,0 +1,38 @@
+var NODES_RIGHT_BORDER = 1280 - 200;
+var NODES_LEFT_BORDER = 200;
+var NODES_TOP_BORDER = 150;
+var NODES_BOTTOM_BORDER = 800 - 150;
+var NODES_AREA_WIDTH = NODES_RIGHT_BORDER - NODES_LEFT_BORDER;
+var NODES_AREA_HEIGHT = NODES_BOTTOM_BORDER - NODES_TOP_BORDER;
+var NODES_MARGIN = 50;
+var NODES_QUICK_TIME = 3000;
+var NODES_NORMAL_TIME = 40000;
+var NODES_CLEAN_RADIUS = 30;
+
+var RATIO_WIDTH = 16;
+var RATIO_HEIGHT = 9;
+var VIDEO_WIDTH = 600;
+
+var MIN_DURATION = 6000;
+var MAX_DURATION = 20000;
+var MIN_DURATION_QUICK = 250;
+var MAX_DURATION_QUICK = 1000;
+
+var BG_ERASE_INTERVAL = 1200;
+var BG_ERASE_OPACITY = 20;
+
+let MAX_BLUR = 3;
+
+
+var video_width;
+var video_height;
+var video_x;
+var video_y;
+
+var wiggle = true;
+var acum_bg = false;
+
+var new_node_x;
+var new_node_y;
+
+let FIRST_CLICK = false;
